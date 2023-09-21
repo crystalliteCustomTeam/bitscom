@@ -1,0 +1,31 @@
+{
+  "name": "bitswits-new",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.0",
+    "date-fns": "^2.30.0",
+    "google-spreadsheet": "^4.0.2",
+    "googleapis": "^126.0.1",
+    "lottie-web": "^5.12.2",
+    "next": "13.4.4",
+    "nodemailer": "^6.9.4",
+    "react": "18.2.0",
+    "react-bodymovin": "^2.0.0",
+    "react-bootstrap": "^2.7.4",
+    "react-countup": "^6.4.2",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.11.0",
+    "react-slick": "^0.29.0",
+    "react-tooltip": "^5.13.2",
+    "slick-carousel": "^1.8.1"
+  }
+}
