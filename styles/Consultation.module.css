@@ -1,0 +1,79 @@
+.consult {
+  background-color: #000;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.btnConslt {
+  padding: 15px 65px;
+  font-size: 15px;
+  background-color: #fff;
+  font-family: Montserrat;
+  color: #000;
+  font-weight: 700;
+  border-radius: 50px;
+  box-shadow: #e83468 2px 2px 29px 0;
+  border: unset;
+  letter-spacing: 1px;
+  transition: 0.5s ease-in-out;
+  display: inline-block;
+}
+.btnConslt1 {
+  padding: 15px 15px;
+  font-size: 15px;
+  background-color: #fff;
+  font-family: Montserrat;
+  color: #000;
+  font-weight: 700;
+  border-radius: 50px;
+  box-shadow: #e83468 2px 2px 29px 0;
+  border: unset;
+  letter-spacing: 1px;
+  transition: 0.5s ease-in-out;
+  display: inline-block;
+}
+
+.btnConslt:hover {
+  color: #000;
+}
+
+.btnConslt1{
+  display: none;
+}
+
+/* =================Media Queries=================== */
+
+@media screen and (max-width: 767px) {
+  .consult {
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  .btnConslt {
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0;
+    padding: 15px;
+    margin-top: 0px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 480px) { 
+
+
+  .btnConslt{
+    display: none;
+  }
+  .btnConslt1{
+    display: block!important;
+  }
+
+.consult{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+}

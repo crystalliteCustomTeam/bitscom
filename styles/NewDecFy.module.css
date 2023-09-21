@@ -1,0 +1,112 @@
+.resources{
+    background-color: #000;
+    color: #000;
+  }
+  
+  .hireUs {
+    position: relative;
+    text-align: center;
+    padding: 0 0 50px 0;
+  }
+  
+  .hireUs:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 405px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+  }
+  
+  .btnHire {
+    background-color: transparent;
+    width: 30%;
+    height: 50px;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-family: "Montserrat";
+    list-style: none;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid #000;
+    margin: 0 auto;
+    transition: background-color 2s;
+  }
+  
+  .btnHire:hover {
+    color: #fff;
+    background-color: #000;
+    transition: background-color 2s;
+  }
+  
+  .team .slideBox {
+    border: 1px solid #707070;
+    border-right: 0;
+    height: 120px;
+    width: 237px;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .team .slideBox img{
+    filter: invert(1);
+    width: 35px;
+  }
+  
+  .team .slideBox p {
+    letter-spacing: 1px;
+  }
+  
+  /* =================Media Queries=================== */
+  
+  @media screen and (max-width: 991px) { 
+
+
+    .team .slideBox p {
+      max-width: 100px;
+  }
+  
+  .btnHire{
+    width: 45%;
+  }
+  
+  }
+  
+  @media screen and (max-width: 767px) {
+    .team .slideBox {
+      border-right: 0;
+      height: 120px;
+      width: 235px;
+      margin-bottom: 0px;
+    }
+  
+    /* .team .slideBox:hover {
+      box-shadow: rgb(149 157 165 / 20%) 0 8px 24px;
+    } */
+  
+    .team .slideBox p {
+      font-size: 8px;
+      line-height: 16px;
+      margin: 0;
+    }
+  
+    .btnHire {
+      padding: 15px 11px;
+      font-size: 10px;
+    }
+  }
+  

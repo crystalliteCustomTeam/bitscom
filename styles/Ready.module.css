@@ -1,0 +1,86 @@
+.pont {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.btno {
+  background-color: transparent;
+  width: 85%;
+  height: 45px;
+  display: block;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-family: "Montserrat";
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid #000;
+}
+
+.secure{
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+
+.phone{
+  display: none!important;
+}
+
+.secure{
+  display: block;
+  margin-bottom: 50px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+  .phone {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .btno {
+    width: 50%;
+   
+  }
+
+  .pont {
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .btno {
+    width: 50%;
+    
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+
+
+  .secure p{
+    text-align: justify!important;
+    font-size: 14px;
+  }
+
+  .pont{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .btno {
+    width: 100%;
+    
+  }
+}
