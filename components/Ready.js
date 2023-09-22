@@ -8,6 +8,15 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Ready = () => {
 
+
+    function openZendeskChat(e) {
+        e.preventDefault();
+        if (typeof zE !== 'undefined') {
+          zE('webWidget', 'open')
+        }
+      }
+
+
     let teamSlider = {
         dots: false,
         arrows: false,
@@ -37,9 +46,9 @@ const Ready = () => {
                             <p className='font16 font-medium pt-2 pb-2'>Contact us without obligation by email or phone
                                 and secure your free consultation.</p>
 
-                            <Link className={styles.btno} href="#">
+                            <a className={styles.btno} href="#contact">
                                 Get Free Consultation
-                            </Link>
+                            </a>
 
                         </Col>
                         <Col lg={4}>
@@ -48,7 +57,7 @@ const Ready = () => {
                             <p className='font16 font-medium pt-2 pb-2'>Get an exact cost breakdown structure <br></br> of your
                                 app</p>
 
-                            <Link className={styles.btno} href="#">
+                            <Link className={styles.btno}  onClick={openZendeskChat} href="#">
                                 Chat Now
                             </Link>
 
@@ -59,7 +68,7 @@ const Ready = () => {
                             <p className='font16 font-medium pt-2 pb-2'>We develop MVPs that are ready <br></br> to tap the
                                 market</p>
 
-                            <Link className={styles.btno} href="#">
+                            <Link className={styles.btno} href="tel:(718) 734-2945">
                                 Call Now
                             </Link>
 

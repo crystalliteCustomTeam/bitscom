@@ -14,34 +14,38 @@ const Freequote = (props) => {
     e.preventDefault()
 
 
-    let headersList = {
-      "Accept": "*/*",
-      "User-Agent": "Thunder Client (https://www.thunderclient.com)",
-      "Content-Type": "application/json"
+
+
+    const data = {
+      name: e.target.first.value,
+      email: e.target.email.value,
+      phone: e.target.phone.value,
+      message: e.target.message.value,
     }
 
-    let bodyContent = JSON.stringify({
-     
-      
-        "datainarray" : {
-          "Name"  : e.target.first.value,
-          "Email" : e.target.email.value,
-          "Phone" : e.target.phone.value,
-          "Message"   : e.target.message.value,
-        }
-    
+
+    const JSONdata = JSON.stringify(data)
+
+    setScore('Wating For Send Data');
 
 
-    }
-    );
+    fetch('api/popup/route', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json, text/plain, */*',
+        'Content-Type': 'application/json'
+      },
+      body: JSONdata
+    }).then((res) => {
+      console.log('Response received')
+      if (res.status === 200) {
+        console.log('Response succeeded!')
+        setScore('succeeded!');
 
-    let response = await fetch("https://brandsapi.cryscampus.com/public/api/bitswitscom/leadform", {
-      method: "POST",
-      body: bodyContent,
-      headers: headersList
-    });
-    let data = await response.text();
-    console.log(data);
+
+
+      }
+    })
 
 
     const { pathname } = Router

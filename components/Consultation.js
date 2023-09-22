@@ -15,13 +15,13 @@ const Consultation = () => {
                                 Looking For Expert Guidance On
                                 Your <span className='grdiant'>Mobile App Development</span> Project?
                             </h2>
-                            <Link href='#' className={`${styles.btnConslt}`}>
+                            <a href='#contact' className={`${styles.btnConslt}`}>
                                 Claim Your Complimentary Consultancy Session Today
-                            </Link>
+                            </a>
 
-                            <Link href='#' className={`${styles.btnConslt1}`}>
+                            <a href='#contact' className={`${styles.btnConslt1}`}>
                             Get A Free Consultation
-                            </Link>
+                            </a>
                         </Col>
                     </Row>
                 </Container>

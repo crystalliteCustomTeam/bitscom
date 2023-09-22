@@ -19,7 +19,20 @@ import news4 from '/public/images/new1/4.webp'
 import news5 from '/public/images/new1/5.webp'
 import Router from 'next/router'
 
+
+
 const NewBannerFy = (props) => {
+
+
+       function openZendeskChat(e) {
+     e.preventDefault();
+     if (typeof zE !== 'undefined') {
+       zE('webWidget', 'open')
+     }
+   }
+
+
+
 
     const [show, setShow] = useState(false);
 
@@ -124,10 +137,10 @@ const NewBannerFy = (props) => {
                             }
 
                             <div className={`${styles.bttnsto} mt-5`}>
-                                <Link className={styles.bttns1} onClick={modal} href="#">
+                                <Link className={styles.bttns1}  href="tel:(718) 734-2945">
                                     Book A Call
                                 </Link>
-                                <Link className={styles.bttns2} href="#">
+                                <Link className={styles.bttns2} onClick={openZendeskChat} href="#">
                                     Live Chat
                                 </Link>
                             </div>
