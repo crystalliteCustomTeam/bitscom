@@ -76,7 +76,7 @@ const Digitallp = () => {
                                                     <li>Medical Device Integrations Solutions</li>
                                                 </ul>
                                                 <div className='mt-4 mb-3 mb-lg-0'>
-                                                    <Link href="#" className='white'>
+                                                    <Link href="tel:(718) 734-2945" className='white'>
                                                         BOOK A CALL
                                                     </Link>
                                                 </div>
@@ -105,7 +105,7 @@ const Digitallp = () => {
                                                     <li>Insurance App Development</li>
                                                 </ul>
                                                 <div className='mt-4 mb-3 mb-lg-0'>
-                                                    <Link href="#" className='white'>
+                                                    <Link href="tel:(718) 734-2945" className='white'>
                                                         BOOK A CALL
                                                     </Link>
                                                 </div>
@@ -134,7 +134,7 @@ const Digitallp = () => {
                                                     <li>Property Management Solutions</li>
                                                 </ul>
                                                 <div className='mt-4 mb-3 mb-lg-0'>
-                                                    <Link href="#" className='white'>
+                                                    <Link href="tel:(718) 734-2945" className='white'>
                                                         BOOK A CALL
                                                     </Link>
                                                 </div>
@@ -163,7 +163,7 @@ const Digitallp = () => {
                                                     <li>AR-based eCommerce solutions</li>
                                                 </ul>
                                                 <div className='mt-4 mb-3 mb-lg-0'>
-                                                    <Link href="#" className='white'>
+                                                    <Link href="tel:(718) 734-2945" className='white'>
                                                         BOOK A CALL
                                                     </Link>
                                                 </div>
@@ -192,7 +192,7 @@ const Digitallp = () => {
                                                     <li>Wellness Apps</li>
                                                 </ul>
                                                 <div className='mt-4 mb-3 mb-lg-0'>
-                                                    <Link href="#" className='white'>
+                                                    <Link href="tel:(718) 734-2945" className='white'>
                                                         BOOK A CALL
                                                     </Link>
                                                 </div>
@@ -221,7 +221,7 @@ const Digitallp = () => {
                                                     <li>Restaurant PoS Software Development</li>
                                                 </ul>
                                                 <div className='mt-4 mb-3 mb-lg-0'>
-                                                    <Link href="#" className='white'>
+                                                    <Link href="tel:(718) 734-2945" className='white'>
                                                         BOOK A CALL
                                                     </Link>
                                                 </div>
@@ -250,7 +250,7 @@ const Digitallp = () => {
                                                     <li>Car Booking Solutions</li>
                                                 </ul>
                                                 <div className='mt-4 mb-3 mb-lg-0'>
-                                                    <Link href="#" className='white'>
+                                                    <Link href="tel:(718) 734-2945" className='white'>
                                                         BOOK A CALL
                                                     </Link>
                                                 </div>
@@ -280,7 +280,7 @@ const Digitallp = () => {
                                                     <li>Facilities Management Solutions</li>
                                                 </ul>
                                                 <div className='mt-4 mb-3 mb-lg-0'>
-                                                    <Link href="#" className='white'>
+                                                    <Link href="tel:(718) 734-2945" className='white'>
                                                         BOOK A CALL
                                                     </Link>
                                                 </div>
@@ -309,7 +309,7 @@ const Digitallp = () => {
                                                     <li>Media Sharing App Development</li>
                                                 </ul>
                                                 <div className='mt-4 mb-3 mb-lg-0'>
-                                                    <Link href="#" className='white'>
+                                                    <Link href="tel:(718) 734-2945" className='white'>
                                                         BOOK A CALL
                                                     </Link>
                                                 </div>
@@ -338,7 +338,7 @@ const Digitallp = () => {
                                                     <li>Business Process Automation Solutions</li>
                                                 </ul>
                                                 <div className='mt-4 mb-3 mb-lg-0'>
-                                                    <Link href="#" className='white'>
+                                                    <Link href="tel:(718) 734-2945" className='white'>
                                                         BOOK A CALL
                                                     </Link>
                                                 </div>
@@ -367,7 +367,7 @@ const Digitallp = () => {
                                                     <li>Online Exam Management System</li>
                                                 </ul>
                                                 <div className='mt-4 mb-3 mb-lg-0'>
-                                                    <Link href="#" className='white'>
+                                                    <Link href="tel:(718) 734-2945" className='white'>
                                                         BOOK A CALL
                                                     </Link>
                                                 </div>
@@ -396,7 +396,7 @@ const Digitallp = () => {
                                                     <li>VFX Solutions</li>
                                                 </ul>
                                                 <div className='mt-4 mb-3 mb-lg-0'>
-                                                    <Link href="#" className='white'>
+                                                    <Link href="tel:(718) 734-2945" className='white'>
                                                         BOOK A CALL
                                                     </Link>
                                                 </div>
@@ -425,7 +425,7 @@ const Digitallp = () => {
                                                     <li>Telematics Software Development</li>
                                                 </ul>
                                                 <div className='mt-4 mb-3 mb-lg-0'>
-                                                    <Link href="#" className='white'>
+                                                    <Link href="tel:(718) 734-2945" className='white'>
                                                         BOOK A CALL
                                                     </Link>
                                                 </div>
@@ -461,7 +461,7 @@ const Digitallp = () => {
                                             <li>Medical Device Integrations Solutions</li>
                                         </ul>
                                         <div className='mt-4 mb-3 mb-lg-0'>
-                                            <Link href="#" className='white'>
+                                            <Link href="tel:(718) 734-2945" className='white'>
                                                 BOOK A CALL
                                             </Link>
                                         </div>
@@ -490,7 +490,7 @@ const Digitallp = () => {
                                             <li>Insurance App Development</li>
                                         </ul>
                                         <div className='mt-4 mb-3 mb-lg-0'>
-                                            <Link href="#" className='white'>
+                                            <Link href="tel:(718) 734-2945" className='white'>
                                                 BOOK A CALL
                                             </Link>
                                         </div>
@@ -519,7 +519,7 @@ const Digitallp = () => {
                                             <li>Property Management Solutions</li>
                                         </ul>
                                         <div className='mt-4 mb-3 mb-lg-0'>
-                                            <Link href="#" className='white'>
+                                            <Link href="tel:(718) 734-2945" className='white'>
                                                 BOOK A CALL
                                             </Link>
                                         </div>
@@ -548,7 +548,7 @@ const Digitallp = () => {
                                             <li>AR-based eCommerce solutions</li>
                                         </ul>
                                         <div className='mt-4 mb-3 mb-lg-0'>
-                                            <Link href="#" className='white'>
+                                            <Link href="tel:(718) 734-2945" className='white'>
                                                 BOOK A CALL
                                             </Link>
                                         </div>
@@ -577,7 +577,7 @@ const Digitallp = () => {
                                             <li>Wellness Apps</li>
                                         </ul>
                                         <div className='mt-4 mb-3 mb-lg-0'>
-                                            <Link href="#" className='white'>
+                                            <Link href="tel:(718) 734-2945" className='white'>
                                                 BOOK A CALL
                                             </Link>
                                         </div>
@@ -606,7 +606,7 @@ const Digitallp = () => {
                                             <li>Restaurant PoS Software Development</li>
                                         </ul>
                                         <div className='mt-4 mb-3 mb-lg-0'>
-                                            <Link href="#" className='white'>
+                                            <Link href="tel:(718) 734-2945" className='white'>
                                                 BOOK A CALL
                                             </Link>
                                         </div>
@@ -635,7 +635,7 @@ const Digitallp = () => {
                                             <li>Car Booking Solutions</li>
                                         </ul>
                                         <div className='mt-4 mb-3 mb-lg-0'>
-                                            <Link href="#" className='white'>
+                                            <Link href="tel:(718) 734-2945" className='white'>
                                                 BOOK A CALL
                                             </Link>
                                         </div>
@@ -665,7 +665,7 @@ const Digitallp = () => {
                                             <li>Facilities Management Solutions</li>
                                         </ul>
                                         <div className='mt-4 mb-3 mb-lg-0'>
-                                            <Link href="#" className='white'>
+                                            <Link href="tel:(718) 734-2945" className='white'>
                                                 BOOK A CALL
                                             </Link>
                                         </div>
@@ -694,7 +694,7 @@ const Digitallp = () => {
                                             <li>Media Sharing App Development</li>
                                         </ul>
                                         <div className='mt-4 mb-3 mb-lg-0'>
-                                            <Link href="#" className='white'>
+                                            <Link href="tel:(718) 734-2945" className='white'>
                                                 BOOK A CALL
                                             </Link>
                                         </div>
@@ -723,7 +723,7 @@ const Digitallp = () => {
                                             <li>Business Process Automation Solutions</li>
                                         </ul>
                                         <div className='mt-4 mb-3 mb-lg-0'>
-                                            <Link href="#" className='white'>
+                                            <Link href="tel:(718) 734-2945" className='white'>
                                                 BOOK A CALL
                                             </Link>
                                         </div>
@@ -752,7 +752,7 @@ const Digitallp = () => {
                                             <li>Online Exam Management System</li>
                                         </ul>
                                         <div className='mt-4 mb-3 mb-lg-0'>
-                                            <Link href="#" className='white'>
+                                            <Link href="tel:(718) 734-2945" className='white'>
                                                 BOOK A CALL
                                             </Link>
                                         </div>
@@ -781,7 +781,7 @@ const Digitallp = () => {
                                             <li>VFX Solutions</li>
                                         </ul>
                                         <div className='mt-4 mb-3 mb-lg-0'>
-                                            <Link href="#" className='white'>
+                                            <Link href="tel:(718) 734-2945" className='white'>
                                                 BOOK A CALL
                                             </Link>
                                         </div>
@@ -810,7 +810,7 @@ const Digitallp = () => {
                                             <li>Telematics Software Development</li>
                                         </ul>
                                         <div className='mt-4 mb-3 mb-lg-0'>
-                                            <Link href="#" className='white'>
+                                            <Link href="tel:(718) 734-2945" className='white'>
                                                 BOOK A CALL
                                             </Link>
                                         </div>

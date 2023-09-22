@@ -214,13 +214,13 @@ const Footerlp = () => {
                 </ul>
                 <ul className={`${styles.contacts} ${styles.myLinks} p-0`}>
                   <li className="mb-0 mt-3">
-                    <Link href="tel:+1 7187342945">
+                    <Link href="tel:(718) 734-2945">
                       <Image alt="bitswits" className='img-fluid'
                         src={call}
 
                         loading="lazy"
                       />
-                      <span className="email">+1 7187342945</span>
+                      <span className="email">(718) 734-2945</span>
 
                     </Link>
                   </li>
@@ -255,7 +255,7 @@ const Footerlp = () => {
               <Col md={4} lg={3} className="mt-md-0 mt-4">
                 <ul className={`${styles.socials} mb-0 p-0`}>
                   <li>
-                    <Link href="https://www.facebook.com/officialbitswits" target="_blank" rel="noopener noreferrer">
+                    <Link href="#" target="_blank" rel="noopener noreferrer">
                       <Image alt="bitswits" className='img-fluid'
                         src={fb}
 
@@ -264,7 +264,7 @@ const Footerlp = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://www.instagram.com/officialbitswits/" target="_blank" rel="noopener noreferrer">
+                    <Link href="#" target="_blank" rel="noopener noreferrer">
                       <Image alt="bitswits" className='img-fluid'
                         src={inta}
 
@@ -273,7 +273,7 @@ const Footerlp = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://twitter.com/BitsWits_/" target="_blank" rel="noopener noreferrer">
+                    <Link href="#" target="_blank" rel="noopener noreferrer">
                       <Image alt="bitswits" className='img-fluid'
                         src={tweet}
 
@@ -282,7 +282,7 @@ const Footerlp = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://www.linkedin.com/company/officialbitswits" target="_blank" rel="noopener noreferrer">
+                    <Link href="#" target="_blank" rel="noopener noreferrer">
                       <Image alt="bitswits" className='img-fluid'
                         src={linkedin}
 
@@ -291,7 +291,7 @@ const Footerlp = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://www.youtube.com/@officialbitswits" target="_blank" rel="noopener noreferrer">
+                    <Link href="#" target="_blank" rel="noopener noreferrer">
                       <Image alt="bitswits" className='img-fluid'
                         src={youtube}
 

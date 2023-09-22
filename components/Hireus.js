@@ -63,9 +63,9 @@ const Hireus = (props) => {
                                 <p className="black text-center f-16 f-400 t-justify mt-3 mb-4">
                                     As the leading mobile app development agency, we've gathered top-notch resources to create exceptional solutions for mobile applications. We have been crafting and will continue to develop unique apps across various platforms, including iOS, Android, Xamarin, and beyond. Our unbridled passion for the most cutting-edge technologies fuels us to continually evolve and innovate, allowing us to instantly provide unparalleled solutions to our valued clients.
                                 </p>
-                                <Link href='#' className={`${styles.btnHire}`}>
+                                <a href='#contact' className={`${styles.btnHire}`}>
                                     Get Free Consultation
-                                </Link>
+                                </a>
                             </Col>
                         </Row>
                     </Container>

@@ -16,6 +16,14 @@ import native from '../public/images/partnerpoiny/d-native.webp'
 
 const Partner = () => {
 
+
+    function openZendeskChat(e) {
+        e.preventDefault();
+        if (typeof zE !== 'undefined') {
+          zE('webWidget', 'open')
+        }
+      }
+
     let prtnrSlider = {
         dots: true,
         arrows: false,
@@ -61,7 +69,7 @@ const Partner = () => {
                                     <li className="f-14 white f-500 f-montserrat">4. Cost-Effective Single Codebase Solution.</li>
                                 </ul>
 
-                                <Link href="#" className={styles.arrowBtn}>
+                                <Link href="#" onClick={openZendeskChat} className={styles.arrowBtn}>
                                     <span className="grdiant f-poppins f-600 f-capitalize">Talk To Our Experts</span>
 
                                 </Link>
@@ -82,7 +90,7 @@ const Partner = () => {
                                     <li className="f-14 white f-500 f-montserrat">3. Customized UI/UX Application Design.</li>
                                     <li className="f-14 white f-500 f-montserrat">4. Robust & Adaptable Mobile Application.</li>
                                 </ul>
-                                <Link href="#" className={styles.arrowBtn}>
+                                <Link href="#" onClick={openZendeskChat} className={styles.arrowBtn}>
                                     <span className="grdiant f-poppins f-600 f-capitalize">Talk To Our Experts</span>
 
                                 </Link>
@@ -108,7 +116,7 @@ const Partner = () => {
                                 <li className="f-14 white f-500 f-montserrat">4. Cost-Effective Single Codebase Solution.</li>
                             </ul>
 
-                            <Link href="#" className={styles.arrowBtn}>
+                            <Link href="#" onClick={openZendeskChat} className={styles.arrowBtn}>
                                 <span className="grdiant f-poppins f-600 f-capitalize">Talk To Our Experts</span>
 
                             </Link>
@@ -127,7 +135,7 @@ const Partner = () => {
                                 <li className="f-14 white f-500 f-montserrat">3. Customized UI/UX Application Design.</li>
                                 <li className="f-14 white f-500 f-montserrat">4. Robust & Adaptable Mobile Application.</li>
                             </ul>
-                            <Link href="#" className={styles.arrowBtn}>
+                            <Link href="#" onClick={openZendeskChat} className={styles.arrowBtn}>
                                 <span className="grdiant f-poppins f-600 f-capitalize">Talk To Our Experts</span>
 
                             </Link>

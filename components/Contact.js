@@ -38,7 +38,7 @@ const Contact = (props) => {
         setScore('Wating For Send Data');
 
 
-        fetch('./api/submit/route', {
+        fetch('api/submit/route', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json, text/plain, */*',

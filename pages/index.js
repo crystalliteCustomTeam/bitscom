@@ -118,6 +118,7 @@ export default function Home() {
                 <meta name="description" content="From iOS to Android and beyond BitsWits is a team of highly skilled and experienced mobile app developers who specialize in creating innovative mobile solutions." />
                 <meta property="og:locale" content="en_US" />
                 <meta property="og:type" content="website" />
+                <meta name='robots' content='noindex, follow' />
                 <meta property="og:title" content="The Professional Mobile App Development Company - Bitswits." />
                 <meta property="og:description" content="From iOS to Android and beyond BitsWits is a team of highly skilled and experienced mobile app developers who specialize in creating innovative mobile solutions." />
                 <meta property="og:url" content="https://bitswits.com/mobile-app-development-company/" />
