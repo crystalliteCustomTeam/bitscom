@@ -20,12 +20,14 @@ export default function App({ Component, pageProps }) {
       <Header />
 
       <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-11331242978"></Script>
-            <Script>
-                {`window.dataLayer = window.dataLayer || [];
+
+      <Script>
+        {`window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments)};
                 gtag('js', new Date());
                 gtag('config', 'AW-11331242978');`}
-            </Script>
+      </Script>
+
 
       <Component {...pageProps} />
 

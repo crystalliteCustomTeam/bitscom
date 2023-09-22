@@ -15,12 +15,11 @@ export default function ThankYou() {
                 <meta name="description" content="Apps that simplify your life, one click at a time, Bitswits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
-
-                <Script>
-                    {`gtag('event', 'conversion', {'send_to' : 'AW-11331242978/i9_NCJ6ql-QYEOKXlJsq'});`}
-                </Script>
-
             </Head>
+
+            <Script>
+                {`gtag('event', 'conversion', {'send_to' : 'AW-11331242978/i9_NCJ6ql-QYEOKXlJsq'});`}
+            </Script>
 
             <main>
                 <section className={styles.thankYou}>
