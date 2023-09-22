@@ -82,7 +82,7 @@ export default function Home() {
         {
             id: '4',
             title: 'Custom App Development',
-            text:  ( <>  Every brand is distinct, and so should be its app. As your chosen custom app development company, we offer tailor-made app solutions that mirror your brand's essence. With a team of adept custom app developers, we promise a product that stands out. </> ) ,
+            text: (<>  Every brand is distinct, and so should be its app. As your chosen custom app development company, we offer tailor-made app solutions that mirror your brand's essence. With a team of adept custom app developers, we promise a product that stands out. </>),
             click1: 'tab5',
             img: icon5,
             fun: game,
@@ -102,9 +102,9 @@ export default function Home() {
     ]
 
 
-   
 
-  
+
+
 
 
     return (
@@ -141,6 +141,7 @@ export default function Home() {
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
 
+    
 
             {/* <Script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" />
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />

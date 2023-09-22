@@ -26,83 +26,44 @@ const NewBannerFy = (props) => {
     function modal(e) { e.preventDefault(); setShow(true); }
     function closemodal() { setShow(false); }
 
-
+    const [score, setScore] = useState('Submit');
 
     const handleSubmit = async (e) => {
 
         e.preventDefault()
 
 
-        // const data = {
-        //     firstName: event.target.fname.value,
-        //     lastName: event.target.lname.value,
-        //     email: event.target.email.value,
-        //     company: event.target.company.value,
-        //     service: event.target.service.value,
-        //     source: event.target.source.value,
-        //     budget: event.target.budget.value,
-        //     message: event.target.message.value,
-        // }
-
-        // const JSONdata = JSON.stringify(data)
-
-        // setScore('Wating For Send Data');
-
-
-
-        // fetch('https://wp23.cryscampus.com/BrandsWebsite/public/api/clients-information/bitswits', {
-        //     method: 'POST',
-        //     headers: {
-        //         'Accept': 'application/json, text/plain, */*',
-        //         'Content-Type': 'application/json'
-        //     },
-        //     body: JSONdata
-        // }).then((res) => {
-        //     console.log('Response received')
-        //     if (res.status === 200) {
-        //         console.log('Response succeeded!')
-        //     }
-        // })
-
-
-        let headersList = {
-            "Accept": "*/*",
-            "User-Agent": "Thunder Client (https://www.thunderclient.com)",
-            "Content-Type": "application/json"
+        const data = {
+            name: e.target.first.value,
+            email: e.target.email.value,
+            phone: e.target.phone.value,
+            message: e.target.message.value,
         }
 
-        let bodyContent = JSON.stringify({
+        const JSONdata = JSON.stringify(data)
+
+        setScore('Sending Data');
 
 
-            "datainarray": {
-                "Name": e.target.first.value,
-                "Email": e.target.email.value,
-                "Phone": e.target.phone.value,
-                "Message": e.target.message.value,
+
+        fetch('api/email/route', {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json, text/plain, */*',
+                'Content-Type': 'application/json'
+            },
+            body: JSONdata
+        }).then((res) => {
+            console.log(`Response received ${res}`)
+            if (res.status === 200) {
+                console.log(`Response Successed ${res}`)
             }
-
-
-
-        }
-        );
-
-
-
-        let response = await fetch("https://brandsapi.cryscampus.com/public/api/bitswitscom/leadform", {
-            method: "POST",
-            body: bodyContent,
-            headers: headersList
-        });
-        let data = await response.text();
-        console.log(data);
-
+        })
 
         const { pathname } = Router
         if (pathname == pathname) {
             Router.push('/thank-you')
         }
-
-
 
     }
 
@@ -218,7 +179,7 @@ const NewBannerFy = (props) => {
                                     <textarea className={styles.formarea} name='message' required placeholder='Message'></textarea>
                                     <div className={`${styles.take} d-flex`}>
                                         <p className='white font11 font-semibold fontf m-0'>We take your privacy seriously.<br className='d-block' /> Read our <strong>Privacy Notice</strong>.</p>
-                                        <input type='Submit' className={styles.notice} />
+                                        <button type="submit" id="submit" data-wait="Booking the Call" className={styles.notice}>{score}</button>
                                     </div>
                                 </form>
                             </div>

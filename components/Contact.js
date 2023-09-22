@@ -22,73 +22,42 @@ const Contact = (props) => {
         event.preventDefault()
 
 
-        // const data = {
-        //     firstName: event.target.fname.value,
-        //     lastName: event.target.lname.value,
-        //     email: event.target.email.value,
-        //     company: event.target.company.value,
-        //     service: event.target.service.value,
-        //     source: event.target.source.value,
-        //     budget: event.target.budget.value,
-        //     message: event.target.message.value,
-        // }
+        const data = {
+            fname: event.target.fname.value,
+            lname: event.target.lname.value,
+            email: event.target.email.value,
+            company: event.target.company.value,
+            service: event.target.service.value,
+            source: event.target.source.value,
+            budget: event.target.budget.value,
+            message: event.target.message.value,
+        }
 
-        // const JSONdata = JSON.stringify(data)
+        const JSONdata = JSON.stringify(data)
 
-        // setScore('Wating For Send Data');
-
-
-
-        // fetch('https://wp23.cryscampus.com/BrandsWebsite/public/api/clients-information/bitswits', {
-        //     method: 'POST',
-        //     headers: {
-        //         'Accept': 'application/json, text/plain, */*',
-        //         'Content-Type': 'application/json'
-        //     },
-        //     body: JSONdata
-        // }).then((res) => {
-        //     console.log('Response received')
-        //     if (res.status === 200) {
-        //         console.log('Response succeeded!')
-        //     }
-        // })
+        setScore('Wating For Send Data');
 
 
-        let headersList = {
-            "Accept": "*/*",
-            "User-Agent": "Thunder Client (https://www.thunderclient.com)",
-            "Content-Type": "application/json"
-           }
-           let bodyContent = JSON.stringify({
-          
+        fetch('./api/submit/route', {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json, text/plain, */*',
+                'Content-Type': 'application/json'
+            },
+            body: JSONdata
+        }).then((res) => {
+            console.log('Response received')
+            if (res.status === 200) {
+                console.log('Response succeeded!')
+            }
+        })
 
-            "datainarray" : {
-                "First Name": event.target.fname.value,
-                "Last Name": event.target.lname.value,
-                "Email": event.target.email.value,
-                "Company": event.target.company.value,
-                "Service": event.target.service.value,
-                "Source": event.target.source.value,
-                "Budget": event.target.budget.value,
-                "Message": event.target.message.value,
-              }
-          
-            
-           }
-           );
-           let response = await fetch("https://brandsapi.cryscampus.com/public/api/bitswitscom/serviceform", {
-             method: "POST",
-             body: bodyContent,
-             headers: headersList
-           });
-           let data = await response.text();
-           console.log(data);
 
-           const { pathname } = Router
-           if (pathname == pathname) {
-             Router.push('/thank-you')
-           }
-      
+        const { pathname } = Router
+        if (pathname == pathname) {
+            Router.push('/thank-you')
+        }
+
 
     }
 
@@ -132,7 +101,7 @@ const Contact = (props) => {
                                     </div>
                                 </div> */}
 
-                                <Row className={ `${styles.weell} gx-5 mt-3` }>
+                                <Row className={`${styles.weell} gx-5 mt-3`}>
                                     <Col xl={6} className={styles.imgideo}><Image src={mobilelp1} className='img-fluid' alt='bitswits' /></Col>
                                     <Col xl={6} className={styles.imgideo}><Image src={mobilelp2} className='img-fluid' alt='bitswits' /></Col>
                                     <Col xl={6} className={styles.imgideo}><Image src={mobilelp3} className='img-fluid' alt='bitswits' /></Col>
