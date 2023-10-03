@@ -5,7 +5,7 @@ import Footernewfy from '@/components/Footernewfydesign';
 import Zendesk, { ZendeskAPI } from "../pages/zendex";
 const ZENDESK_KEY = "325da280-f4f0-4c80-997f-ea4de45eb2f1";
 import Script from 'next/script';
-
+import Pixel from '@/components/Pixel'; // Import the Pixel component
 
 export default function App({ Component, pageProps }) {
 
@@ -27,7 +27,7 @@ export default function App({ Component, pageProps }) {
                 gtag('js', new Date());
                 gtag('config', 'AW-11331242978');`}
       </Script>
-
+      <Pixel/>
 
       <Component {...pageProps} />
 
