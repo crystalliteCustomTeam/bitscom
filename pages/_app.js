@@ -14,20 +14,28 @@ export default function App({ Component, pageProps }) {
     });
   };
 
-   
+  const gt1 = 'https://www.googletagmanager.com/gtag/js?id=AW-11331242978';
+  const gt2 = `window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+  gtag('config', 'AW-11331242978');`;
 
   return (
     <>
 
       <Header />
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-11331242978"></Script>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(gt1) }}></script>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(gt2) }}></script>
+
+      {/* <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-11331242978"></Script>
       <Script>
         {`window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments)};
                 gtag('js', new Date());
                 gtag('config', 'AW-11331242978');`}
-      </Script>
-      <Pixel/>
+      </Script> */}
+      <Pixel />
 
       <Component {...pageProps} />
 
