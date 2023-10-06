@@ -5,9 +5,7 @@ import Footernewfy from '@/components/Footernewfydesign';
 import Zendesk, { ZendeskAPI } from "../pages/zendex";
 const ZENDESK_KEY = "325da280-f4f0-4c80-997f-ea4de45eb2f1";
 import Script from 'next/script';
-import Pixel from '@/components/Pixel'; 
-import { FBPixelScript, FBPixelProvider } from '@rivercode/facebook-conversion-api-nextjs/components';
-
+import Pixel from '@/components/Pixel';
 
 export default function App({ Component, pageProps }) {
 
@@ -32,11 +30,7 @@ export default function App({ Component, pageProps }) {
 
       <Pixel />
 
-      <FBPixelScript />
-
-      <FBPixelProvider>
-        <Component {...pageProps} />
-      </FBPixelProvider>
+      <Component {...pageProps} />
 
       <Footernewfy />
 
