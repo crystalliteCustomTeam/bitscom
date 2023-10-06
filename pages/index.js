@@ -143,8 +143,8 @@ export default function Home() {
             </Head>
 
             <noscript><img height="1" width="1" className='d-none'
-src="https://www.facebook.com/tr?id=856509489183062&ev=PageView&noscript=1"
-/></noscript>
+                src="https://www.facebook.com/tr?id=856509489183062&ev=PageView&noscript=1"
+            /></noscript>
 
             {/* <Script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" />
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />

@@ -8,6 +8,8 @@ import Script from 'next/script'
 
 export default function ThankYou() {
 
+    const gt1 = `gtag('event', 'conversion', {'send_to' : 'AW-11331242978/i9_NCJ6ql-QYEOKXlJsq'});`
+
     return (
         <>
             <Head>
@@ -17,9 +19,7 @@ export default function ThankYou() {
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
 
-            <Script>
-                {`gtag('event', 'conversion', {'send_to' : 'AW-11331242978/i9_NCJ6ql-QYEOKXlJsq'});`}
-            </Script>
+            <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(gt1) }}></Script>
 
             <main>
                 <section className={styles.thankYou}>

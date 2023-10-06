@@ -5,7 +5,9 @@ import Footernewfy from '@/components/Footernewfydesign';
 import Zendesk, { ZendeskAPI } from "../pages/zendex";
 const ZENDESK_KEY = "325da280-f4f0-4c80-997f-ea4de45eb2f1";
 import Script from 'next/script';
-import Pixel from '@/components/Pixel'; // Import the Pixel component
+import Pixel from '@/components/Pixel'; 
+import { FBPixelScript, FBPixelProvider } from '@rivercode/facebook-conversion-api-nextjs/components';
+
 
 export default function App({ Component, pageProps }) {
 
@@ -28,16 +30,13 @@ export default function App({ Component, pageProps }) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(gt1) }}></script>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(gt2) }}></script>
 
-      {/* <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-11331242978"></Script>
-      <Script>
-        {`window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments)};
-                gtag('js', new Date());
-                gtag('config', 'AW-11331242978');`}
-      </Script> */}
       <Pixel />
 
-      <Component {...pageProps} />
+      <FBPixelScript />
+
+      <FBPixelProvider>
+        <Component {...pageProps} />
+      </FBPixelProvider>
 
       <Footernewfy />
 
