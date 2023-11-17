@@ -100,7 +100,7 @@ const ThanksGiving = () => {
                                 <form onSubmit={handleSubmit} className={styles.giving}>
                                     <input type="text" className={styles.formfree} required name="name" placeholder="Your Name" />
                                     <input type="email" className={styles.formfree} required name="email" placeholder="Your Email" />
-                                    <input type="number" className={styles.formfree} required name="phone" placeholder="Your Number" />
+                                    <input type="tel" className={styles.formfree} required name="phone" placeholder="Your Number" maxLength={15} minLength={7} />
                                     <button className={styles.freebtn} type="submit"> {score}</button>
                                 </form>
                             </div>

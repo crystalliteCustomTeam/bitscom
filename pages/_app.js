@@ -54,15 +54,6 @@ export default function App({ Component, pageProps }) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(gt1) }}></script>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(gt2) }}></script>
 
-
-
-      {/* <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-11331242978"></Script>
-      <Script>
-        {`window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments)};
-                gtag('js', new Date());
-                gtag('config', 'AW-11331242978');`}
-      </Script> */}
       <Pixel />
       <Pixel2 />
 
@@ -80,7 +71,6 @@ export default function App({ Component, pageProps }) {
 
         ''
       }
-
 
       <div>
         <Zendesk defer zendeskKey={ZENDESK_KEY} onLoaded={handleLoaded} />

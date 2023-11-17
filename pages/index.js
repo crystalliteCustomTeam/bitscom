@@ -1,17 +1,14 @@
 import Head from 'next/head'
+import Script from 'next/script'
+import Image from 'next/image'
+import React, { useState } from 'react';
+//
 import Partner from '@/components/Partner'
 import Publication from '@/components/Publication'
 import Hireus from '@/components/Hireus'
 import Consultation from '@/components/Consultation'
 import ClientsThinklp from '@/components/ClientsThinklp'
 import Ready from '@/components/Ready'
-import React, { useState } from 'react';
-import icon1 from '../public/images/mobilelpservices/sideimg.png'
-import icon2 from '../public/images/mobilelpservices/game.png'
-import icon3 from '../public/images/mobilelpservices/web30.png'
-import icon4 from '../public/images/mobilelpservices/blockchain.png'
-import icon5 from '../public/images/mobilelpservices/webflow.png'
-import icon6 from '../public/images/mobilelpservices/artifical.png'
 import Ourservices from '@/components/Ourserviceslp'
 import NewBannerFy from '@/components/NewBannerFy'
 import Aboutlp from '@/components/Aboutlp'
@@ -21,7 +18,13 @@ import Contact from '@/components/Contact'
 import NewDecFy from '@/components/NewDecFy'
 import FaqsLp from '@/components/FaqsmobileappLp'
 import Consultation2 from '@/components/Consultation2'
-import Image from 'next/image'
+//
+import icon1 from '../public/images/mobilelpservices/sideimg.png'
+import icon2 from '../public/images/mobilelpservices/game.png'
+import icon3 from '../public/images/mobilelpservices/web30.png'
+import icon4 from '../public/images/mobilelpservices/blockchain.png'
+import icon5 from '../public/images/mobilelpservices/webflow.png'
+import icon6 from '../public/images/mobilelpservices/artifical.png'
 import news1 from '/public/images/new2/1.webp'
 import news2 from '/public/images/new2/2.webp'
 import news3 from '/public/images/new2/3.webp'
@@ -29,17 +32,13 @@ import news4 from '/public/images/new2/4.webp'
 import news5 from '/public/images/new2/5.webp'
 
 
-
 export default function Home() {
-
-
 
     const [gameshow, gameapp] = useState('tab1');
 
     function game(tab) {
         gameapp(tab);
     }
-
 
     const services1 = [
 
@@ -110,6 +109,7 @@ export default function Home() {
                 <meta charSet="UTF-8" />
                 <title>The Professional Mobile App Development Company - Bitswits.</title>
                 <meta name="description" content="From iOS to Android and beyond BitsWits is a team of highly skilled and experienced mobile app developers who specialize in creating innovative mobile solutions." />
+                {/* OG Tags */}
                 <meta property="og:locale" content="en_US" />
                 <meta property="og:type" content="website" />
                 <meta name='robots' content='noindex, follow' />
@@ -117,43 +117,61 @@ export default function Home() {
                 <meta property="og:description" content="From iOS to Android and beyond BitsWits is a team of highly skilled and experienced mobile app developers who specialize in creating innovative mobile solutions." />
                 <meta property="og:url" content="https://bitswits.com/mobile-app-development-company/" />
                 <meta property="og:site_name" content="The Professional Mobile App Development Company - Bitswits." />
-                <link rel="canonical" href="https://bitswits.com/mobile-app-development-company/" />
+                {/* ======== */}
                 <meta name="msvalidate.01" content="7BBFFA763CEB48CAC0828E22D44DD12B" />
+                {/* Canonical */}
+                <link rel="canonical" href="https://bitswits.com/mobile-app-development-company/" />
+                {/* Location Tag Us-CA */}
                 <meta name="DC.title" content="mobile app development company, hire mobile app developers, mobile app development services" />
                 <meta name="geo.region" content="US-CA" />
                 <meta name="geo.placename" content="Los Angeles" />
                 <meta name="geo.position" content="36.701463;-118.755997" />
                 <meta name="ICBM" content="36.701463, -118.755997" />
+                {/* Location Tag Us-DE */}
                 <meta name="DC.title" content="mobile app development company, hire mobile app developers, mobile app development services" />
                 <meta name="geo.region" content="US-DE" />
                 <meta name="geo.placename" content="Dover" />
                 <meta name="geo.position" content="38.692045;-75.401331" />
                 <meta name="ICBM" content="38.692045, -75.401331" />
+                {/* Location Tag Us */}
                 <meta name="DC.title" content="mobile app development company, hire mobile app developers, mobile app development services" />
                 <meta name="geo.region" content="US" />
                 <meta name="geo.position" content="39.78373;-100.445882" />
                 <meta name="ICBM" content="39.78373, -100.445882" />
+                {/* google-site-verification */}
+                <meta name="google-site-verification" content="PFUKBAtQ51SrSweC-rCG_GkCcizLnmAVcaItgXgDLUU" />
+                {/* favicon */}
                 <link rel="icon" href="images/icons/favicon.png" />
+
+                {/* googletagmanager */}
+
+                <Script id="google-analytics" strategy="afterInteractive">
+                    {`
+                        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                        })(window,document,'script','dataLayer','GTM-K994MT85');
+                    `}
+                </Script>
+
             </Head>
 
             <noscript>
-                <img height="1" width="1" className='d-none' src="https://www.facebook.com/tr?id=856509489183062&ev=PageView&noscript=1" />
+                <img src="https://www.facebook.com/tr?id=856509489183062&ev=PageView&noscript=1" height="1" width="1" className='d-none' />
             </noscript>
 
-            {/* <Script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" />
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
-            <Script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" /> */}
+            <noscript>
+                <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K994MT85" height="0" width="0" className='d-none'></iframe>
+            </noscript>
 
-            < NewBannerFy
+            <NewBannerFy
                 subtitle='Transform Your Business With Our Revolutionary'
                 title={<> Mobile App < br /> Development Company </>}
                 title2={<> We Don't Just Create Apps; We Create Experiences</>}
                 text={<> At BitsWits, we develop innovative and user - friendly apps that have a visually appealing design and function seamlessly, meeting the specific needs of our clients.Our focus on delivering high - quality mobile apps is unwavering; as a result, we have earned a reputation as the industry's best mobile app development company. </>}
                 banClass="mobile"
-                img1={<>
-
-
-                </>}
+                img1={<></>}
                 img2={<>
                     <div className='newbit2'>
                         <Image src={news1} alt="bitswits" className='img-fluid' />
@@ -162,11 +180,10 @@ export default function Home() {
                         <Image src={news4} alt="bitswits" className='img-fluid' />
                         <Image src={news5} alt="bitswits" className='img-fluid' />
                     </div>
-
                 </>}
             />
 
-            < NewDecFy />
+            <NewDecFy />
 
             <Aboutlp />
 

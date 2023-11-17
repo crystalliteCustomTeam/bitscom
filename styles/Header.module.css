@@ -1,5 +1,4 @@
-
-.popquote{
+.popquote {
   position: relative;
 }
 
@@ -509,13 +508,11 @@
 }
 
 @media screen and (max-width: 991px) {
-
-  
-
   .cross {
-    top: 10px;
-    right: 10px;
+    top: -6%;
+    right: -3%;
   }
+
   .header {
     padding: 0 15px;
   }
@@ -721,18 +718,23 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .cross {
+    top: -10%;
+    right: -5%;
+  }
+}
+
 @media screen and (max-width: 600px) {
-  .modalnew{
+  .modalnew {
     margin-top: 10%;
   }
 }
 @media screen and (max-width: 480px) {
-
-  .modalnew{
+  .modalnew {
     margin-top: 20%;
   }
 
-  
   .navLogo {
     width: 60%;
   }
