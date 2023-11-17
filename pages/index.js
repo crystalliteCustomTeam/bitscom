@@ -98,13 +98,7 @@ export default function Home() {
             data: gameshow
         },
 
-
     ]
-
-
-
-
-
 
 
     return (
@@ -142,19 +136,19 @@ export default function Home() {
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
 
-            <noscript><img height="1" width="1" className='d-none'
-                src="https://www.facebook.com/tr?id=856509489183062&ev=PageView&noscript=1"
-            /></noscript>
+            <noscript>
+                <img height="1" width="1" className='d-none' src="https://www.facebook.com/tr?id=856509489183062&ev=PageView&noscript=1" />
+            </noscript>
 
             {/* <Script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" />
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
             <Script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" /> */}
 
-            <NewBannerFy
+            < NewBannerFy
                 subtitle='Transform Your Business With Our Revolutionary'
-                title={<>Mobile App <br />  Development Company </>}
-                title2={<>We Don't Just Create Apps; We Create Experiences</>}
-                text={<> At BitsWits, we develop innovative and user-friendly apps that have a visually appealing design and function seamlessly, meeting the specific needs of our clients. Our focus on delivering high-quality mobile apps is unwavering; as a result, we have earned a reputation as the industry's best mobile app development company. </>}
+                title={<> Mobile App < br /> Development Company </>}
+                title2={<> We Don't Just Create Apps; We Create Experiences</>}
+                text={<> At BitsWits, we develop innovative and user - friendly apps that have a visually appealing design and function seamlessly, meeting the specific needs of our clients.Our focus on delivering high - quality mobile apps is unwavering; as a result, we have earned a reputation as the industry's best mobile app development company. </>}
                 banClass="mobile"
                 img1={<>
 
@@ -172,7 +166,7 @@ export default function Home() {
                 </>}
             />
 
-            <NewDecFy />
+            < NewDecFy />
 
             <Aboutlp />
 

@@ -72,11 +72,11 @@ export default function ThankYou() {
                         <Row className={styles.bannnerproject}>
                             <Col lg={8} className='mx-auto'>
                                 <div className={styles.banerTxt}>
-                                    <h1 className='font65 black fontf font-bold line60'>
+                                    <h1 className='font65 white fontf font-bold line60'>
                                         <span className='grdiant font-bold'>Thank You</span>
                                     </h1>
 
-                                    <p className='black fontf font16 font-medium line30'>
+                                    <p className='white fontf font16 font-medium line30'>
                                         Welcome to the community, your personalized experience awaits!
                                     </p>
 

@@ -375,8 +375,8 @@
 
 .cross {
   position: absolute;
-  top: 50px;
-  right: 13px;
+  top: -1.5%;
+  right: -1.5%;
   color: white;
   width: 35px;
   height: 35px;
