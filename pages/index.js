@@ -150,7 +150,7 @@ export default function Home() {
                         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
                         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
                         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                        'https://www.googletagmanager.com/gtm.js?id=%27+i+dl;f.parentNode.insertBefore(j,f);
+                        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
                         })(window,document,'script','dataLayer','GTM-P25ZLQVB');
                     `}
                 </Script>
@@ -162,7 +162,8 @@ export default function Home() {
             </noscript>
 
             <noscript>
-                <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25ZLQVB%22" height="0" width="0" className='d-none'></iframe>
+                <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25ZLQVB"
+                    height="0" width="0" className='d-none'></iframe>
             </noscript>
 
             <NewBannerFy
