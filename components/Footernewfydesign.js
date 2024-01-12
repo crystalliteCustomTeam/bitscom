@@ -303,7 +303,7 @@ const Footerlp = () => {
               </Col>
               <Col md={4} lg={6}>
                 <p className={`${styles.trmCon} f-montserrat f-12 white f-500 mb-0`}>
-                  Copyright © 2023 BitsWits. |
+                  Copyright © 2024 BitsWits. |
                   <Link href="#" className="white ps-1" target="_blank">
                     Brand Of Bhaoo Incorporation Company
                   </Link>
