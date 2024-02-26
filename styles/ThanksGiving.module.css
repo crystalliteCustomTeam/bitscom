@@ -1,0 +1,106 @@
+.giving {
+  display: flex;
+  gap: 10px;
+  height: 100%;
+  flex-direction: column;
+  width: 75%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.formfree {
+  padding: 10px 0;
+  border: none;
+  border-radius: 0;
+  outline: 0;
+  margin: 0;
+  background: transparent;
+  border: 1px solid #f14cc1e3;
+  color: #fff;
+  padding: 7px 15px;
+  width: 100%;
+  font-family: "Poppins";
+  border-radius: 5px;
+}
+
+.formfree::placeholder {
+  font-size: 13px;
+  color: #fff;
+}
+
+.freebtn {
+  background-color: #f14cc1e3;
+  color: #fff;
+  width: 100%;
+  border: unset;
+  font-family: "Poppins";
+  border-radius: 5px;
+  padding: 7px 15px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.getstart {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notes {
+  display: flex;
+  align-items: center;
+}
+
+.thankYou {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #000;
+}
+
+.bttnsto {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.bttns2 {
+  width: 250px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+  justify-content: center;
+  font-family: "Montserrat";
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid #000;
+  transition: background-color 1s;
+  background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
+}
+
+.bttns2:hover {
+  transition: background-color 1s;
+  background-color: #000;
+  color: #fff;
+}
+
+/* ========================= */
+
+@media screen and (max-width: 991px) {
+  .giving {
+    width: 100%;
+  }
+}
