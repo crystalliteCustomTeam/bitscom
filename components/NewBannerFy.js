@@ -187,7 +187,7 @@ const NewBannerFy = (props) => {
                                 </div>
                                 <form className={styles.formsbanner} onSubmit={handleSubmit}>
                                     <input type='text' className={styles.forminput} name='first' placeholder='Name' required />
-                                    <input type='number' className={styles.forminput} name='phone' placeholder='Phone Number' required />
+                                    <input type="tel" minlength="10" maxlength="13" pattern="[0-9]*" className={styles.forminput} name='phone' placeholder='Phone Number' required />
                                     <input type='email' className={styles.forminput} name='email' placeholder='Email Address' required />
                                     <textarea className={styles.formarea} name='message' required placeholder='Message'></textarea>
                                     <div className={`${styles.take} d-flex`}>
