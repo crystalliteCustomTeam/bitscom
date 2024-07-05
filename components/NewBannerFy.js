@@ -137,7 +137,7 @@ const NewBannerFy = (props) => {
                             }
 
                             <div className={`${styles.bttnsto} mt-5`}>
-                                <Link className={styles.bttns1}  href="tel:(718) 734-2945">
+                                <Link className={styles.bttns1}  href="tel:(833) 500-6007">
                                     Book A Call
                                 </Link>
                                 <Link className={styles.bttns2} onClick={openZendeskChat} href="#">

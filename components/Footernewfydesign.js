@@ -214,13 +214,13 @@ const Footerlp = () => {
                 </ul>
                 <ul className={`${styles.contacts} ${styles.myLinks} p-0`}>
                   <li className="mb-0 mt-3">
-                    <Link href="tel:(718) 734-2945">
+                    <Link href="tel:(833) 500-6007">
                       <Image alt="bitswits" className='img-fluid'
                         src={call}
 
                         loading="lazy"
                       />
-                      <span className="email">(718) 734-2945</span>
+                      <span className="email">(833) 500-6007</span>
 
                     </Link>
                   </li>
