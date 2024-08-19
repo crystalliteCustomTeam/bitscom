@@ -71,13 +71,13 @@ const Ourservices = ({ services, title, title2, para, }) => {
                             {services.map((item) => (
 
                                 <>
-                               
+
                                     {item.data == item.click1 &&
                                         <div className={styles.imgapost} key={item.id}>
                                             <Image alt="bitswits" src={item.img} className={item.data == item.click1 ? styles.bottom4 : styles.bottom4} />
                                         </div>
                                     }
-                                    
+
                                 </>
 
                             ))

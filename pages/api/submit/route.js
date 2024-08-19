@@ -10,7 +10,7 @@ export default async function POST(req, res) {
             secure: true,
             auth: {
                 user: 'signup@bitswits.com',
-                pass: "10@Kskwoks"
+                pass: "2=9G%UbVTELj7nP@"
             }
         })
 
