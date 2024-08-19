@@ -137,7 +137,7 @@ const NewBannerFy = (props) => {
                             }
 
                             <div className={`${styles.bttnsto} mt-5`}>
-                                <Link className={styles.bttns1}  href="tel:(718) 734-2945">
+                                <Link className={styles.bttns1}  href="tel:(833) 500-6007">
                                     Book A Call
                                 </Link>
                                 <Link className={styles.bttns2} onClick={openZendeskChat} href="#">
@@ -187,7 +187,7 @@ const NewBannerFy = (props) => {
                                 </div>
                                 <form className={styles.formsbanner} onSubmit={handleSubmit}>
                                     <input type='text' className={styles.forminput} name='first' placeholder='Name' required />
-                                    <input type='number' className={styles.forminput} name='phone' placeholder='Phone Number' required />
+                                    <input type="tel" minlength="10" maxlength="13" pattern="[0-9]*" className={styles.forminput} name='phone' placeholder='Phone Number' required />
                                     <input type='email' className={styles.forminput} name='email' placeholder='Email Address' required />
                                     <textarea className={styles.formarea} name='message' required placeholder='Message'></textarea>
                                     <div className={`${styles.take} d-flex`}>

@@ -128,14 +128,14 @@ const Footerlp = () => {
 
 
 
-                      <li> <Link href="/">Ios App Development</Link></li>
-                      <li> <Link href="/">Mobile App Development</Link></li>
-                      <li> <Link href="/">Android App Development</Link></li>
-                      <li> <Link href="/">Flutter App Development</Link></li>
-                      <li> <Link href="/">React Native App Development</Link></li>
-                      <li> <Link href="/">Wearable App Development</Link></li>
-                      <li> <Link href="/">Cross Platform App Development</Link></li>
-                      <li> <Link href="/">Web App Development</Link></li>
+                      <li> <Link href="#">Ios App Development</Link></li>
+                      <li> <Link href="#">Mobile App Development</Link></li>
+                      <li> <Link href="#">Android App Development</Link></li>
+                      <li> <Link href="#">Flutter App Development</Link></li>
+                      <li> <Link href="#">React Native App Development</Link></li>
+                      <li> <Link href="#">Wearable App Development</Link></li>
+                      <li> <Link href="#">Cross Platform App Development</Link></li>
+                      <li> <Link href="#">Web App Development</Link></li>
 
 
                     </ul>
@@ -144,11 +144,11 @@ const Footerlp = () => {
                     <ul className='p-0'>
 
 
-                      <li><Link href="/">Web Development</Link>  </li>
-                      <li><Link href="/">Php Development Services</Link>  </li>
-                      <li><Link href="/">ECommerce Development</Link>  </li>
-                      <li><Link href="/">Enterprise Portal Solution</Link>  </li>
-                      <li><Link href="/">Magento Enterprise Solution</Link>  </li>
+                      <li><Link href="#">Web Development</Link>  </li>
+                      <li><Link href="#">Php Development Services</Link>  </li>
+                      <li><Link href="#">ECommerce Development</Link>  </li>
+                      <li><Link href="#">Enterprise Portal Solution</Link>  </li>
+                      <li><Link href="#">Magento Enterprise Solution</Link>  </li>
 
 
 
@@ -165,12 +165,12 @@ const Footerlp = () => {
                     <ul className='p-0 mb-0'>
 
 
-                      <li>  <Link href="/" className="modal-toggle">  Game App Development</Link> </li>
-                      <li>  <Link href="/" className="modal-toggle">  2D Game Development </Link> </li>
-                      <li>  <Link href="/" className="modal-toggle">  3D Game Development </Link> </li>
-                      <li>  <Link href="/" className="modal-toggle">  NFT Game Development </Link> </li>
-                      <li>  <Link href="/" className="modal-toggle">  Blockchain Game Development </Link> </li>
-                      <li>  <Link href="/" className="modal-toggle">  Game Development </Link> </li>
+                      <li>  <Link href="#" className="modal-toggle">  Game App Development</Link> </li>
+                      <li>  <Link href="#" className="modal-toggle">  2D Game Development </Link> </li>
+                      <li>  <Link href="#" className="modal-toggle">  3D Game Development </Link> </li>
+                      <li>  <Link href="#" className="modal-toggle">  NFT Game Development </Link> </li>
+                      <li>  <Link href="#" className="modal-toggle">  Blockchain Game Development </Link> </li>
+                      <li>  <Link href="#" className="modal-toggle">  Game Development </Link> </li>
                       <li>  <Link href="#" className="modal-toggle">  2D Art </Link> </li>
                       <li>  <Link href="#" className="modal-toggle">  3D Art </Link> </li>
 
@@ -181,7 +181,7 @@ const Footerlp = () => {
                   <Col md={6}>
                     <ul className='p-0'>
                       <li>
-                        <Link href="/blockchain-development-lp" className="modal-toggle">Blockchain Development</Link>
+                        <Link href="#" className="modal-toggle">Blockchain Development</Link>
                       </li>
                     
                     </ul>
@@ -214,13 +214,13 @@ const Footerlp = () => {
                 </ul>
                 <ul className={`${styles.contacts} ${styles.myLinks} p-0`}>
                   <li className="mb-0 mt-3">
-                    <Link href="tel:(718) 734-2945">
+                    <Link href="tel:(833) 500-6007">
                       <Image alt="bitswits" className='img-fluid'
                         src={call}
 
                         loading="lazy"
                       />
-                      <span className="email">(718) 734-2945</span>
+                      <span className="email">(833) 500-6007</span>
 
                     </Link>
                   </li>

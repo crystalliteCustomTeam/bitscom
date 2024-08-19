@@ -68,7 +68,7 @@ const Ready = () => {
                             <p className='font16 font-medium pt-2 pb-2'>We develop MVPs that are ready <br></br> to tap the
                                 market</p>
 
-                            <Link className={styles.btno} href="tel:(718) 734-2945">
+                            <Link className={styles.btno} href="tel:(833) 500-6007">
                                 Call Now
                             </Link>
 
